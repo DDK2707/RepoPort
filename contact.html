@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body
+style="background-image: url(chuntarocontact3large.jpeg);">
+</body> 
+<ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a class="active" href="contact.html">Contact &#128172</a></li>
+</ul>
+
+<h1 style="color: white";>Contact Ya Boi</h1> 
+<p style="font-size: 130%; color: white;">Shoot me a message if you want me to read and post your writing, or if you just want to say hi. I don't bite...hard</p> 
+<form action="/action_page.php>" method="POST">
+    <fieldset>
+        <legend>Your Info</legend>
+        <label for="enter your name"> Name:</label><br>
+        <input type="text" id="Name" name="Name" placeholder="John Doe" autofocus><br>
+        <label for="enter telephone number"> Telephone:</label><br>
+        <input type="tel" id="Telephone" name="Telephone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+        <label for="enter email address">E-mail Address</label><br>
+        <input type="email" id="E-mail" name="E-mail" placeholder="example@email.com" multiple required><br>
+    </fieldset>
+    <fieldset>
+        <legend>Your Message</legend>
+        <label for="enter message"></label><br>
+        <input type="text" id="Enter message" name="Enter message" placeholder="Oh shit, is dat boi"><br>
+        <p>Would you like your work included on the site?</p>
+        <input type="radio" id="no" name="post_choice" value="Yez Pleaze">
+        <label for="yes"> Yez Pleaze</label> <br>
+        <input type="radio" id="no" name="post_choice" value="Hell Naw">
+        <label for="no"> Hell Naw</label> <br>
+    </fieldset>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
